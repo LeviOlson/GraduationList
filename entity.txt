@@ -2,9 +2,9 @@ create database graduation;
 
 use graduation;
 
+create table instructors(INSTRUCTOR_ID int not null auto_increment,
+FIRST_NAME varchar(30), LAST_NAME varchar(30), primary key(INSTRUCTOR_ID));
+
 create table courses(COURSE_ID int not null auto_increment,
 COURSE_NAME varchar(50), START_DATE DATE, CREDITS varchar(5), INSTRUCTOR_ID int, primary
 key(COURSE_ID), foreign key(INSTRUCTOR_ID) references instructors(INSTRUCTOR_ID));
-
-create table instructors(INSTRUCTOR_ID int not null auto_increment,
-FIRST_NAME varchar(30), LAST_NAME varchar(30), primary key(INSTRUCTOR_ID));
