@@ -41,7 +41,7 @@
 		<input type="submit" value="Delete:" name="doThisToItem">
 		<input type="submit" value="Add:" name="doThisToItem">
 		<input type="submit" value="Edit:" name="doThisToItem">
-		<input type="submit" value="Cancel:" name="doThisToItem">
+		<input type="submit" value="Go to homepage:" name="doThisToItem">
 	</form>
 </body>
 </html>
