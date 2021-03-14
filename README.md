@@ -1,2 +1,2 @@
 # GraduationList
- Mini project for Java II
+ Mini project for Java II by Thomas Sorteburg, and Levi Olson. If it won't run, make sure Delployment Assembly settings have Maven Dependencies listed. Video by Sterling Rhone if you need help with this part https://www.youtube.com/watch?v=Zv1T5x_jHnk
